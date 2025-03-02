@@ -18,7 +18,9 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "audit": "npm audit"
   },
   "eslintConfig": {
     "extends": [
