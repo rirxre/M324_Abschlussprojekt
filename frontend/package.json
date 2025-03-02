@@ -11,15 +11,14 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.5",
-    "react-toastify": "^11.0.5",
-    "vite": "^6.2.0"
+    "react-toastify": "^11.0.5"
   },
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.jsx",
     "audit": "npm audit --json"
   },
   "eslintConfig": {
@@ -29,6 +28,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^9.21.0"
+    "eslint": "^9.21.0",
+    "vite": "^6.2.0"
   }
 }
