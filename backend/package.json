@@ -4,7 +4,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx",
+    "audit": "npm audit",
+    "build": "echo 'No build step needed for backend' && exit 0"
   },
   "dependencies": {
     "cors": "^2.8.5",
